@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // creating title for this counter
             const counterTitle = document.createElement('h2');
             counterTitle.textContent = `Counter ${counter.id}`;
+            
 
             //how many customers are in this counter line
             const customersCount = document.createElement('p');

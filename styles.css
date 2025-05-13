@@ -116,3 +116,22 @@ button:hover {
     margin: 0;
     color: #2c3e50;
 }
+
+@media screen and (max-width: 600px) {
+    .input-group {
+        flex-direction: column;
+    }
+
+    .input-group label {
+        margin-bottom: 0;
+    }
+
+    .input-group input {
+        width: 100%;
+    }
+
+    .counters-container {
+        flex-direction: column;
+    }   
+    
+}
